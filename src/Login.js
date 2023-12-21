@@ -24,7 +24,7 @@ return(
               <label>Username:</label>
                 <input placeholder="Please enter your username..." type="text" value={username} onChange={(e)=> setUsername(e.target.value)}/>
               <label>Password:</label>
-                <input placeholder="Please enter your password..." type="text" value={password} onChange={(e)=> setPassword(e.target.value)}/><br></br><br></br>
+                <input placeholder="Please enter your password..." type="password" value={password} onChange={(e)=> setPassword(e.target.value)}/><br></br><br></br>
               <div className="login-button" style={{fontSize:"20px"}}>
                 <Link to="/posts" onClick={handleLogin}>Login</Link>
               </div>
