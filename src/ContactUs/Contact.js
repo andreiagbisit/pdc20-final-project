@@ -11,11 +11,11 @@ export default function ContactUs() {
     emailjs.sendForm('service_xdf9skr', 'template_b57foxs', e.target, 'fYUIBW3hmECUNmY4O')
       .then((result) => {
         return(
-            alert('Message Successfully sent')
+            alert('Thank you for taking the time in reaching us out! As much as possible, we will get back to you and take the time to read your queries. We hope you have a great time using Latchet!')
         )
       }, (error) => {
         return(
-            alert('Something Wong')
+            alert('Hmm... Something isn’t right. You probably forgot to fill in one of the input fields around there.')
         )
       });
   }
